@@ -15,7 +15,7 @@ print(df[["NOSEQ_VEH","PHYS_SEX"]])
 #filters the records in which MARQ_VEH has value - HONDA
 print(df[df["MARQ_VEH"] == "HONDA"])
 
-#filters the records in which MARQ_VEH has value - HONDA
+#filters the records in which TYP_VEH_CATEG_USA has value - AU , or VT
 print(df[(df["TYP_VEH_CATEG_USA"] == "AU") | (df["TYP_VEH_CATEG_USA"] == "VT")])
 
 #filter by index (taking rows from 20 to 30)
