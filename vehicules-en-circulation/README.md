@@ -5,6 +5,9 @@ Vehicles in Circulation
 # Description #  
 Number of vehicles authorized to circulate in Québec, for both road vehicles and vehicles designed for off-road traffic.
 
+### Year ###
+2016
+
 ## Field Description ## 
 
 | Column name | Description |
