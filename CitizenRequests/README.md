@@ -24,7 +24,7 @@ tax account or a statement of offense, etc.). In addition, this category include
 borough specialist or a corporate service.|
 * _Comment_ (Comment - suggestion): Any comment, suggestion or proposal expressing the opinion of a citizen on a matter of municipal jurisdiction. The administration takes this into account without imposing immediate action.
 * _Request_: Any request from a citizen to obtain an authorization (permit, etc.), support (subsidy, etc.), service (inspection, repair, etc.) or other type of intervention from the City. This category includes citizens' claims.
-Complaint: Any grievances of a citizen regarding municipal services, behavior of managers or municipal employees for inadequate service delivery, lack of service provision, unacceptable act, offense, abuse of power or discrimination, etc.
+Complaint: Any grievances of a citizen regarding municipal services, behavior of managers or municipal employees for inadequate service delivery, lack of service provision, unacceptable act, offense, abuse of power or discrimination, etc. |
 
 |__ACTI_NOM__ |Category of the request |
 
@@ -64,11 +64,11 @@ Complaint: Any grievances of a citizen regarding municipal services, behavior of
 
 | __RUE_INTERSECTION2__ | adjacent intersections 2 |
 
-| __LIN_CODE_POSTAL | Relevant postal code |
+| __LIN_CODE_POSTAL__ | Relevant postal code |
 
-| __LOC_X | X coordinate (NAD83 MTM Zone 8) - Obfuscated position |
+| __LOC_X__ | X coordinate (NAD83 MTM Zone 8) - Obfuscated position |
 
-| __LOC_Y | Y coordinate (NAD83 MTM Zone 8) - Obfuscated position |
+| __LOC_Y__ | Y coordinate (NAD83 MTM Zone 8) - Obfuscated position |
 
 | __LOC_LAT__ | Latitude - Obfuscated Position |
 
