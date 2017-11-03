@@ -15,9 +15,7 @@ the travel times. The Road Segments collection of travel time segments describes
 | Column name | Description |
 |-------------|-------------|
 | __LinkId__ | Unique ID |
-| __NATURE__ | Unique identifier of the travel time segment. Format LXX_AA-BB, XX identifier of the route, 
-AA identifier of the source, BB identifier of the destination. This idenfiant makes it possible to make the link with the
-data set road segments collection of travel times.|
+| __NATURE__ | Unique identifier of the travel time segment. Format LXX_AA-BB, XX identifier of the route, AA identifier of the source, BB identifier of the destination. This idenfiant makes it possible to make the link with the data set road segments collection of travel times.|
 |__SrcDetectorId__ |Unique identifier of the original sensor of the segment |
 | __DestDetectorId__ |Unique identifier for the segment destination sensor|
 | __PathDistance_m__ |Length of the segment, in meters.|
