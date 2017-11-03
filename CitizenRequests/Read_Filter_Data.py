@@ -8,7 +8,7 @@ df = pd.DataFrame()
 
 ################ Reading data #################################################################################
 #read_csv from pandas will read the csv file into dataframe(which is table like format)
-df = pd.read_csv('requestes311.csv')
+df = pd.read_csv('requetes311.csv')
 #prints first 5 row of the dataframe
 print(df.head(5))
 
