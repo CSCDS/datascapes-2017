@@ -6,7 +6,7 @@ import pandas as pd
 #intialize dataframe
 df = pd.DataFrame()
 
-################ Reading data ##############################
+################ Reading data #################################################################################
 #read_csv from pandas will read the csv file into dataframe(which is table like format)
 df = pd.read_csv('requestes311.csv')
 #prints first 5 row of the dataframe
@@ -15,7 +15,7 @@ print(df.head(5))
 #number of records in dataset
 print("Number of records: "+str(len(df)))
 
-############### Filtering data ############################
+############### Filtering data #################################################################################
 print("###################### Filtering columns ###############################################################")
 #filters all records for columns ID_UNIQUE, ACTI_NOM  and ARRONDISSEMENT
 print(df[["ID_UNIQUE","ACTI_NOM","ARRONDISSEMENT"]])
@@ -38,7 +38,7 @@ print("########################## Slice on columns(by index)####################
 # Remember that Python does not slice inclusive of the ending index.
 print(df.iloc[:,2:7])
 
-print("########################## Slice on column and row (by index) ############################################")
+print("########################## Slice on row and column (by index) ############################################")
 #filter by index (taking rows from 0 to 10, and columns 2 to 5)
 # Remember that Python does not slice inclusive of the ending index.
 print(df.iloc[0:10,2:5])
