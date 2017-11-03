@@ -18,7 +18,7 @@ categories: requests, complaints and comments.
 | __NATURE__ | Type of request.|
 |__ACTI_NOM__ |Category of the request |
 | __TYPE_LIEU_INTERV__ |Indication on the initial geographical association|
-| __BOROUGH__ |Borough assigned to settle the request|
+| __ARRONDISSMENT__ |Borough assigned to settle the request|
 | __ARRONDISSEMENT_GEO__ | District (geographically speaking) in which the intervention must take place |
 | __UNITE_RESP_PARENT__ | Responsible unit |
 | __DDS_DATE_CREATION__ | Date and time of event creation |
@@ -32,7 +32,7 @@ categories: requests, complaints and comments.
 | __PROVENANCE_MOBILE__ | Number of different applicants via mobile |
 | __PROVENANCE_MEDIASOCIAUX__ | Number of different applicants via social media |
 | __PROVENANCE_SITEINTERNET__ | Number of different applicants via web portal |
-| __STREET__ | Street in demand |
+| __RUE__ | Street in demand |
 | __RUE_INTERSECTION1__ | adjacent intersections 1 |
 | __RUE_INTERSECTION2__ | adjacent intersections 2 |
 | __LIN_CODE_POSTAL__ | Relevant postal code |
