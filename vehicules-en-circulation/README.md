@@ -26,7 +26,7 @@ Number of vehicles authorized to circulate in Québec, for both road vehicles an
 | __COUL_ORIG__ | Original color of the vehicle.|
 | __TYP_DOSS_PERS__ | Person file type: Identify the kind of person for whom the Quebec Automobile Insurance Corporation has a folder. |
 | __PHYS_SEX__ | Sex of the owner of a vehicle. |
-| __PHYS_AGE__ | Age of the owner of a vehicle to June 1 the year AN. |
+| __PHYS_AGE__ | Age of the owner of a vehicle to June 1 the year(AN). |
 | __REG_ADM__ | Administrative region of residence of owner of a vehicle. The region administrative is determined from the code geographical area of the municipality. |
 | __MRC__ | Regional County Municipality of Residence the owner of a vehicle. The MRC is determined from the geographical code of the municipality. |
 | __CG_FIXE__ | Geographical code of the municipality of residence of the owner of a vehicle. The municipality is determined from the code postal. |
