@@ -16,16 +16,7 @@ categories: requests, complaints and comments.
 |-------------|-------------|
 | __UNIQUE ID__ | Unique ID |
 
-| __NATURE__ | Type of request.
- * _Information_ (General Information - Benefit): Any request from a citizen to obtain information or 
-a document (leaflet, brochure, form, etc.), being satisfied immediately and therefore not requiring any follow-up. This
-category also includes services that do not require any particular follow-up (sale of a product, collection of a
-tax account or a statement of offense, etc.). In addition, this category includes any request to obtain information from a 
-borough specialist or a corporate service.|
-* _Comment_ (Comment - suggestion): Any comment, suggestion or proposal expressing the opinion of a citizen on a matter of municipal jurisdiction. The administration takes this into account without imposing immediate action.
-* _Request_: Any request from a citizen to obtain an authorization (permit, etc.), support (subsidy, etc.), service (inspection, repair, etc.) or other type of intervention from the City. This category includes citizens' claims.
-Complaint: Any grievances of a citizen regarding municipal services, behavior of managers or municipal employees for inadequate service delivery, lack of service provision, unacceptable act, offense, abuse of power or discrimination, etc. |
-
+| __NATURE__ | Type of request.|
 |__ACTI_NOM__ |Category of the request |
 
 | __TYPE_LIEU_INTERV__ |Indication on the initial geographical association|
