@@ -27,7 +27,7 @@ Download the [prepared version](https://s3.ca-central-1.amazonaws.com/datascapes
 | __CYL_VEH__ | Cylinder capacity of the vehicle: Capacity cubic centimeter (cm 3) cylinders of an internal combustion engine.|
 | __NB_ESIEU_MAX__ | Maximum number of axles that can support a vehicle (and its trailers) traveling on the road network. This is a data element used for the purpose of pricing and issuance of special permits. |
 | __COUL_ORIG__ | Original color of the vehicle.|
-| __TYP_DOSS_PERS__ | Person file type: Identify the kind of person for whom the Quebec Automobile Insurance Corporation has a folder. |
+| __TYP_DOSS_PERS__ | Person file type: Identify the kind of person for whom the Quebec Automobile Insurance Corporation has a folder. (P: physical person, M: moral person) |
 | __PHYS_SEX__ | Sex of the owner of a vehicle. |
 | __PHYS_AGE__ | Age of the owner of a vehicle to June 1 the year(AN). |
 | __REG_ADM__ | Administrative region of residence of owner of a vehicle. The region administrative is determined from the code geographical area of the municipality. |
