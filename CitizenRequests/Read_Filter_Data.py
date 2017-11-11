@@ -1,5 +1,5 @@
 #Citizen Requests
-
+# Dataset link - http://donnees.ville.montreal.qc.ca/dataset/5866f832-676d-4b07-be6a-e99c21eb17e4/resource/2cfa0e06-9be4-49a6-b7f1-ee9f2363a872/download/requetes311.csv
 #import pandas for reading csv file into dataframe
 import pandas as pd
 
@@ -45,5 +45,5 @@ print(df.iloc[0:10,2:5])
 
 
 print("########################## Multiple filters on column and get value of other column #######################")
-#filter conditions and get particular column values for that condition.
+#Gives the value of ARRONDISSEMENT column where NATURE is "Requete" and ACTI_NOM is "Communications corporatives"
 print(df.loc[(df["NATURE"]=="Requete")&(df["ACTI_NOM"]== "Communications corporatives"),"ARRONDISSEMENT"])
