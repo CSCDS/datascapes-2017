@@ -11,7 +11,7 @@ categories: requests, complaints and comments.
 2014 to this day.
 
 ### Link to dataset ###
-http://donnees.ville.montreal.qc.ca/dataset/5866f832-676d-4b07-be6a-e99c21eb17e4/resource/2cfa0e06-9be4-49a6-b7f1-ee9f2363a872/download/requetes311.csv
+Download the [prepared version](https://s3.ca-central-1.amazonaws.com/datascapes2017/CitizenRequests311/requetes311.csv) or the [original version](http://donnees.ville.montreal.qc.ca/dataset/5866f832-676d-4b07-be6a-e99c21eb17e4/resource/2cfa0e06-9be4-49a6-b7f1-ee9f2363a872/download/requetes311.csv).
 
 ## Data Dictionary ##
 
