@@ -1,4 +1,5 @@
-#Crime data 
+# Crime data 
+# Link to dataset - http://donnees.ville.montreal.qc.ca/dataset/5829b5b0-ea6f-476f-be94-bc2b8797769a/resource/c6f482bf-bf0f-4960-8b2f-9982c211addd/download/interventionscitoyendo.csv
 #import pandas for reading csv file into dataframe
 import pandas as pd
 
@@ -43,5 +44,5 @@ print("########################## Slice on row and column(by index) ############
 print(df.iloc[0:10,2:5])
 
 print("########################## Multiple filters on column and get value of other column #######################")
-#filter conditions and get particular column values for that condition.
+#Gives value of DATE column where CATEGORIE is "Introduction" and QUART is "soir"
 print(df.loc[(df["CATEGORIE"] == "Introduction") & (df["QUART"]=="soir"),"DATE"])
