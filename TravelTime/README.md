@@ -49,3 +49,6 @@ the travel times. The Road Segments collection of travel time segments describes
 | __DestChannelId__ | Unique identifier of the destination channel. |
 | __LineDistance_m__ | Length of the segment in meters. |
 | __last_poll_time__ | The date and time of the last sensor data collection in YYYY-MM-DD HH: MM: SS: mmm format. |
+
+[More information about the dataset 1 and values](http://donnees.ville.montreal.qc.ca/dataset/temps-de-parcours-sur-des-segments-routiers-historique)
+[More information about the dataset 2 and values](http://donnees.ville.montreal.qc.ca/dataset/segments-routiers-de-collecte-des-temps-de-parcours)
