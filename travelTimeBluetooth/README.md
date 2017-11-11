@@ -10,8 +10,13 @@ the travel times. The Road Segments collection of travel time segments describes
 ### Year ###
 2016-01 / 2017-02
 
+### Links to Dataset ###
+1. Travel time on road segments (historical) - http://depot.ville.montreal.qc.ca/temps_parcours_bluetooth/trips.csv
+2. Road segments for collecting travel time - http://donnees.ville.montreal.qc.ca/dataset/a8f68bfa-5ead-4dda-ab52-b48e45ce9ea0/resource/5c342221-14c1-4593-9e2e-d1044b41dd90/download/bornes.csv
+
 ## Data Dictionary ##
 
+1. Travel time on road segments (historical)
 | Column name | Description |
 |-------------|-------------|
 | __LinkId__ | Unique identifier of the travel time segment.|
@@ -22,3 +27,12 @@ the travel times. The Road Segments collection of travel time segments describes
 | __TripEnd_dt__ | Date and time of the capture at the destination point of the segment in the format YYYY-MM-DD HH: MM: SS|
 | __Speed_kmh__ | Average speed calculated on the segment, in kilometers per hour.|
 | __TravelTime_s__ | Travel time calculated on the segment, in seconds. |
+
+2. Road segments for collecting travel time 
+| Column name | Description |
+|-------------|-------------|
+| __IdLink__ | Unique identifier of the travel time segment.|
+|__channel_name__ | Channel name |
+| __active__ | Segment activity at the time of data export. 0: inactive, 1:active |
+| __LinkID__ | Textual identifier of the travel time segment. Format LXX_AA-BB, XX: identifier of the route, AA: identifier of the source, BB: identifier of the destination.|
+| __SrcDetectorId__ | Identifier of the original sensor of the segment (starting point) |
