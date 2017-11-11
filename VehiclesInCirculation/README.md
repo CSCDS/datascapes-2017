@@ -33,3 +33,5 @@ Download the [prepared version](https://s3.ca-central-1.amazonaws.com/datascapes
 | __REG_ADM__ | Administrative region of residence of owner of a vehicle. The region administrative is determined from the code geographical area of the municipality. |
 | __MRC__ | Regional County Municipality of Residence the owner of a vehicle. The MRC is determined from the geographical code of the municipality. |
 | __CG_FIXE__ | Geographical code of the municipality of residence of the owner of a vehicle. The municipality is determined from the code postal. |
+
+For more information about field values, check Vehicle in circulation.pdf
