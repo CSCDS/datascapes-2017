@@ -16,6 +16,22 @@ This dataset consists of three files:
 
 ## Data Dictionary ##
 
+### 1. donneessouvertes-interventions-sim.csv ###
+| Column name | Description |
+|-------------|-------------|
+| __incident_nbr__ | identifying the event by year.|
+| __creation_date_time__ | date and time of the event.|
+| __description_groupe__ | grouping of types of interventions in 6 categories: Building fires, Other fires, Without fire, Fire alarms, First responders, False alerts / cancellations. |
+| __incident_type_desc__ |type of incident|
+| __caserne__ |number of the barracks responsible for the territory where the event occurred.|
+| __nom_ville__ | Name of the city where the event occurred.|
+| __nom_arrond__ | Name of the district where the event occurred.|
+| __division__ | number of the MIS division responsible for the territory where the event occurred.|
+| __latitude,longitude__ | geographical position of the event after obfuscation at an intersection according to the WGS84 geodesic datum. |
+| __nombre_unites__ |number of vehicles deployed to respond to the event. A unit can consist of 3 to 5 firefighters.|
+
+### 2. donneessouvertes-interventions-sim-2005-2014.csv ###
+
 | Column name | Description |
 |-------------|-------------|
 | __INCIDENT_NBR__ | identifying the event by year.|
@@ -28,3 +44,14 @@ This dataset consists of three files:
 | __DIVISION__ | number of the MIS division responsible for the territory where the event occurred.|
 | __LONGITUDE,LATITUDE__ | geographical position of the event after obfuscation at an intersection according to the WGS84 geodesic datum. |
 | __NOMBRE_UNITES__ |number of vehicles deployed to respond to the event. A unit can consist of 3 to 5 firefighters.|
+
+
+### 3. type-interventions-descriptions20161122.csv ###
+
+
+| Column name | Description |
+|-------------|-------------|
+| __INCIDENT_TYPE_DESCRIPTION__ |type of incident|
+| __Description__ | Description of the incident |
+
+
