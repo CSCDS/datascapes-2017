@@ -96,3 +96,14 @@ print(df3.head(5))
 
 #number of records in dataset
 print("Number of records: "+str(len(df3)))
+
+#Renaming the column name - to perform inner join 
+df3 = df3.rename(columns={'INCIDENT_TYPE_DESCRIPTION': 'incident_type_desc'})
+
+print("############################ Merging(Inner join) the datasets #########################################################")
+#Performing outer join on both the above datasets on incident_type_desc, so that we can check corresponding description
+#for each record
+merged_df1 = pd.DataFrame()
+merged_df1 = pd.merge(df1, df3,how='inner', on=['incident_type_desc'])
+print(merged_df1)
+
