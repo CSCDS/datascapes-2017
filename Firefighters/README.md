@@ -20,7 +20,7 @@ This dataset consists of three files:
 |-------------|-------------|
 | __INCIDENT_NBR__ | identifying the event by year.|
 | __CREATION_DATE_TIME__ | date and time of the event.|
-| DESCRIPTION_GROUPE |grouping of types of interventions in 6 categories: Building fires, Other fires, Without fire, Fire alarms, First responders, False alerts / cancellations. |
+| __DESCRIPTION_GROUPE__ | grouping of types of interventions in 6 categories: Building fires, Other fires, Without fire, Fire alarms, First responders, False alerts / cancellations. |
 | __INCIDENT_TYPE_DESC__ |type of incident|
 | __CASERNE__ |number of the barracks responsible for the territory where the event occurred.|
 | __NOM_VILLE__ | Name of the city where the event occurred.|
