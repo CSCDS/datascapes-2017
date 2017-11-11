@@ -56,3 +56,4 @@ This dataset consists of three files:
 | __Description__ | Description of the incident |
 
 
+[More information about field values](http://donnees.ville.montreal.qc.ca/dataset/interventions-service-securite-incendie-montreal)
