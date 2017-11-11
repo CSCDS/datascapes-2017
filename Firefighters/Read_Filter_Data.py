@@ -69,11 +69,11 @@ print(df2.head(5))
 #number of records in dataset
 print("Number of records: "+str(len(df2)))
 
-#Renaming the column name - to perform inner join
-df2 = df2.rename(columns={'NOM_ARROND': 'nom_arrond'})
+#changing the column header to lowercase for being consitent in header for both dataset.
+df2.columns = [x.lower() for x in df2.columns]
 
 #Taking subsets from both datasets having nom_arrond = Lachine in frame1 and frame2
-frame1 =df1[df1["nom_arrond"] == "Lachine"]
+frame1 = df1[df1["nom_arrond"] == "Lachine"]
 frame2 = df2[df2["nom_arrond"] == "Lachine"]
 
 #Concatenate the frames having nom_arrond = "Lachine" in both dataset.
@@ -101,7 +101,7 @@ print(df3.head(5))
 #number of records in dataset
 print("Number of records: "+str(len(df3)))
 
-#Renaming the column name - to perform inner join
+#Renaming the column name - to perform inner join (Note: You can also perform lower operation as we did above, this is the second way of renaming)
 df3 = df3.rename(columns={'INCIDENT_TYPE_DESCRIPTION': 'incident_type_desc'})
 
 print("############################ Merging(Inner join) the datasets #########################################################")
