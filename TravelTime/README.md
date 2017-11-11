@@ -11,8 +11,8 @@ the travel times. The Road Segments collection of travel time segments describes
 2016-01 / 2017-02
 
 ### Links to Dataset ###
-  * trips.csv: Travel time on road segments (historical). Download [prepared version](https://s3.ca-central-1.amazonaws.com/datascapes2017/TravelTime/trips.csv) or [original version](http://depot.ville.montreal.qc.ca/temps_parcours_bluetooth/trips.csv)
-  * bournes.csv: Road segments for collecting travel time. Download [prepared version](https://s3.ca-central-1.amazonaws.com/datascapes2017/TravelTime/bornes.csv) or [original version](http://donnees.ville.montreal.qc.ca/dataset/a8f68bfa-5ead-4dda-ab52-b48e45ce9ea0/resource/5c342221-14c1-4593-9e2e-d1044b41dd90/download/bornes.csv)
+  1. trips.csv: Travel time on road segments (historical). Download [prepared version](https://s3.ca-central-1.amazonaws.com/datascapes2017/TravelTime/trips.csv) or [original version](http://depot.ville.montreal.qc.ca/temps_parcours_bluetooth/trips.csv)
+  2. bournes.csv: Road segments for collecting travel time. Download [prepared version](https://s3.ca-central-1.amazonaws.com/datascapes2017/TravelTime/bornes.csv) or [original version](http://donnees.ville.montreal.qc.ca/dataset/a8f68bfa-5ead-4dda-ab52-b48e45ce9ea0/resource/5c342221-14c1-4593-9e2e-d1044b41dd90/download/bornes.csv)
 
 ## Data Dictionary ##
 
