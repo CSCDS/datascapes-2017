@@ -8,6 +8,12 @@ Data set listing the interventions carried out by the Montreal Fire Safety Servi
 ### Year ###
 2005 onwards
 
+### Data ###
+This dataset consists of three files:
+  * [donneessouvertes-interventions-sim-2005-2014.csv](https://s3.ca-central-1.amazonaws.com/datascapes2017/Firefighters/donneesouvertes-interventions-sim-2005-2014.csv)
+  * [donneessouvertes-interventions-sim.csv](https://s3.ca-central-1.amazonaws.com/datascapes2017/Firefighters/donneesouvertes-interventions-sim.csv)
+  * [type-interventions-descriptions20161122.csv](https://s3.ca-central-1.amazonaws.com/datascapes2017/Firefighters/donneesouvertes-interventions-sim.csv)
+
 ## Data Dictionary ##
 
 | Column name | Description |

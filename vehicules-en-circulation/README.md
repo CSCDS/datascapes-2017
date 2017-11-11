@@ -9,7 +9,7 @@ Number of vehicles authorized to circulate in Québec, for both road vehicles an
 2016
 
 ### Link to Dataset ###
-https://saaq.gouv.qc.ca/donnees-ouvertes/vehicules-circulation/vehicules-circulation-2016.csv
+Download the [prepared version](https://s3.ca-central-1.amazonaws.com/datascapes2017/QCVehicle/vehicules-circulation-2016.csv) or the [original version](https://saaq.gouv.qc.ca/donnees-ouvertes/vehicules-circulation/vehicules-circulation-2016.csv).
 
 ## Data Dictionary ## 
 
