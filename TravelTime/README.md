@@ -16,7 +16,8 @@ the travel times. The Road Segments collection of travel time segments describes
 
 ## Data Dictionary ##
 
-1. Travel time on road segments (historical)
+### 1. Travel time on road segments (historical) ###
+
 | Column name | Description |
 |-------------|-------------|
 | __LinkId__ | Unique identifier of the travel time segment.|
@@ -28,7 +29,8 @@ the travel times. The Road Segments collection of travel time segments describes
 | __Speed_kmh__ | Average speed calculated on the segment, in kilometers per hour.|
 | __TravelTime_s__ | Travel time calculated on the segment, in seconds. |
 
-2. Road segments for collecting travel time 
+### 2. Road segments for collecting travel time  ### 
+
 | Column name | Description |
 |-------------|-------------|
 | __IdLink__ | Unique identifier of the travel time segment.|
