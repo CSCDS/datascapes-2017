@@ -62,13 +62,17 @@ df2 = pd.DataFrame()
 ################## Reading data ###########################################################
 #read_csv from pandas will read the csv file into dataframe(which is table like format)
 print("Dataset 2 - Interventions du SIM - 2005-2014 Populaire")
-df2 = pd.read_csv('donneesouvertes-interventions-sim.csv')
+df2 = pd.read_csv('donneesouvertes-interventions-sim-2005-2014.csv')
 #prints first 5 row of the dataframe
 print(df2.head(5))
 
 #number of records in dataset
 print("Number of records: "+str(len(df2)))
 
+#Renaming the column name - to perform inner join
+df2 = df2.rename(columns={'NOM_ARROND': 'nom_arrond'})
+
+#Taking subsets from both datasets having nom_arrond = Lachine in frame1 and frame2
 frame1 =df1[df1["nom_arrond"] == "Lachine"]
 frame2 = df2[df2["nom_arrond"] == "Lachine"]
 
@@ -97,7 +101,7 @@ print(df3.head(5))
 #number of records in dataset
 print("Number of records: "+str(len(df3)))
 
-#Renaming the column name - to perform inner join 
+#Renaming the column name - to perform inner join
 df3 = df3.rename(columns={'INCIDENT_TYPE_DESCRIPTION': 'incident_type_desc'})
 
 print("############################ Merging(Inner join) the datasets #########################################################")
