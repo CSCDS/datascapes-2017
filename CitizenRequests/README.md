@@ -44,3 +44,5 @@ Download the [prepared version](https://s3.ca-central-1.amazonaws.com/datascapes
 | __LOC_LAT__ | Latitude - Obfuscated Position |
 | __LOC_LONG__ |Longitude - Obfuscated position |
 | __LOC_ERREUR_GDT__ |Information on the precision of the positioning of the query before the obfuscation (0 = location instead of the request, 1 = location in the BAM of the district)|
+
+[More information about the values](http://donnees.ville.montreal.qc.ca/dataset/requete-311)
