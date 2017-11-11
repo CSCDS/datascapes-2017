@@ -1,5 +1,5 @@
 #vehicules-circulation-2016 dataset
-
+#dataset link - https://saaq.gouv.qc.ca/donnees-ouvertes/vehicules-circulation/vehicules-circulation-2016.csv
 #import pandas for reading csv file into dataframe
 import pandas as pd
 
@@ -45,5 +45,5 @@ print("########################## Slice on row and column(by index) ############
 print(df.iloc[0:10,2:5])
 
 print("########################## Multiple filters on column and get value of other column #######################")
-#filter conditions and get particular column values for that condition.
+#Gives value of PHYS_SEX column where COUL_ORIG is BLA and NB_CYL is 4.0
 print(df.loc[(df["COUL_ORIG"]=="BLA")&(df["NB_CYL"]== 4.0),"PHYS_SEX"])
